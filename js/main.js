@@ -317,5 +317,35 @@
     });
 
 
+
+    // Scroll Spy
+    let sectionParams = {
+        root: null,
+        rootMargin: "-50% 0px -50% 0px", // Trigger when the section is in the middle of the viewport
+        threshold: 0
+    };
+
+    let observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                let id = entry.target.getAttribute("id");
+                let navLink = document.querySelector(`.navbar-nav a[href="#${id}"]`);
+
+                if (navLink) {
+                    document.querySelectorAll(".navbar-nav a").forEach(link => {
+                        link.classList.remove("active");
+                    });
+                    navLink.classList.add("active");
+                }
+            }
+        });
+    }, sectionParams);
+
+    // List of sections to observe
+    let sections = document.querySelectorAll("#home, #about, #service, #product, #work, #train, #award");
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+
 })(jQuery);
 

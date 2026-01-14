@@ -118,7 +118,6 @@ body {
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
   color: #003399;
-  /* Primary blue color */
 }
 
 .navbar .navbar-brand img {
