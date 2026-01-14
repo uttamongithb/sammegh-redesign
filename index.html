@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SamMegh Technologies</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.jpeg" type="image/jpeg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+    <style>
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-icons a {
+            width: 80px;
+            height: 80px;
+            background-color: #003399;
+            color: #fff;
+            font-size: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: #333;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive for small screens */
+        @media (max-width: 576px) {
+            .social-icons a {
+                width: 65px;
+                height: 65px;
+                font-size: 26px;
+            }
+        }
+
+        .clients-marquee {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            background-color: #ffffff;
+        }
+
+        .clients-track {
+            display: flex;
+            align-items: center;
+            width: max-content;
+            animation: scroll 50s linear infinite;
+        }
+
+        .bg-light {
+            background-color: #ffffff !important;
+        }
+
+        .clients-track img {
+            height: 120px;
+            /* BIG logo size */
+            margin: 0 40px;
+            object-fit: contain;
+
+            transition: all 0.3s ease;
+        }
+
+        .clients-track img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.08);
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .top-logo img {
+            max-height: 90px;
+            width: auto;
+            height: auto;
+            display: block;
+        }
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            .top-logo img {
+                max-height: 90px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 576px) {
+            .top-logo img {
+                max-height: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid px-0 fixed-top">
+        <div class="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 w-100 h-100">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="img\sammegh11.png" alt="SamMegh Technologies" style="max-height: 60px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto"> <!-- Right align links -->
+                        <a href="index.html" class="nav-item nav-link active">HOME</a>
+                        <a href="#about" class="nav-item nav-link">ABOUT US</a>
+                        <a href="#service" class="nav-item nav-link">SERVICES</a>
+                        <a href="#product" class="nav-item nav-link">PRODUCTS</a>
+                        <a href="#work" class="nav-item nav-link">WORK</a>
+                        <a href="#train" class="nav-item nav-link">TRAINING PROGRAM</a>
+                        <a href="#award" class="nav-item nav-link">AWARDS & ARTICLES</a>
+                    </div>
+                    <a href="#footer"
+                        class="btn btn-primary rounded-pill py-2 px-4 ms-lg-3 d-none d-lg-block">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="carousel-text">
+                            <h1 class="text-uppercase" style="font-weight:700;font-size:40px;">Turning Ideas into
+                                Digital
+                                Solutions</h1>
+                            <p class="fs-5 mb-5">We partner with you to understand your vision, explore the best
+                                technology solutions, and build high-quality websites and mobile applications that drive
+                                real business growth.</p>
+                            <div class="d-flex">
+                                <a class="btn btn-primary py-3 px-4 me-3" href="#about">Know More</a>
+                                <a class="btn py-3 px-4" href="#footer"
+                                    style="background-color:#003399;color: white;">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="carousel-img">
+                            <img class="w-100" src="img\GIF-image-1.gif" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--             <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="carousel-text">
+                            <h1 class="display-1 text-uppercase mb-3">Together, We Can End Hunger</h1>
+                            <p class="fs-5 mb-5">No one should go to bed hungry. Your support helps us bring smiles, hope, and a brighter future to those in need.</p>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary py-3 px-4 me-3" href="">Donate Now</a>
+                                <a class="btn btn-secondary py-3 px-4" href="">Join Us Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="carousel-img">
+                            <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+
+
+    <!-- Clients Marquee Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+
+
+
+            <div class="clients-marquee">
+                <div class="clients-track">
+
+                    <!-- Client Logos -->
+                    <img src="img/clients/pllogo.jpg" alt="">
+                    <img src="img/clients/raisetopi.PNG" alt="">
+                    <img src="img/clients/Sakaala-Mart-Logo.png" alt="">
+                    <img src="img/clients/sanrakshan-logo.png" alt="">
+                    <img src="img/clients/sid.PNG" alt="">
+                    <img src="img/clients/sin.jpeg" alt="">
+                    <img src="img/clients/toyota-logo.jpg" alt="">
+                    <img src="img/clients/tp.png" alt="">
+                    <img src="img/clients/trakinvest1.jpeg" alt="">
+                    <img src="img/clients/triverse_south_africa_logo.jpg" alt="">
+                    <img src="img/clients/upsc.png" alt="">
+                    <img src="img/clients/vcrew.jpg" alt="">
+                    <img src="img/clients/vitomalia.png" alt="">
+                    <img src="img/clients/v-logo.png" alt="">
+                    <img src="img/clients/arnslogo.PNG" alt="">
+                    <img src="img/clients/bhategroupslogo.png" alt="">
+                    <img src="img/clients/brysq.png" alt="">
+                    <img src="img/clients/client.jpg" alt="">
+                    <img src="img/clients/client1.jpg" alt="">
+                    <img src="img/clients/client2.png" alt="">
+                    <img src="img/clients/client3.png" alt="">
+                    <img src="img/clients/client4.jpg" alt="">
+                    <img src="img/clients/client5.jpg" alt="">
+                    <img src="img/clients/client6.jpg" alt="">
+                    <img src="img/clients/cognisie_logo_new.png" alt="">
+                    <img src="img/clients/karmayoga-logo.png" alt="">
+                    <img src="img/clients/logo1.jpeg" alt="">
+                    <img src="img/clients/logo-1.PNG" alt="">
+                    <img src="img/clients/mks.png" alt="">
+
+                    <!-- Duplicate for infinite smooth scroll -->
+                    <img src="img/clients/pllogo.jpg">
+                    <img src="img/clients/raisetopi.PNG">
+                    <img src="img/clients/Sakaala-Mart-Logo.png">
+                    <img src="img/clients/sanrakshan-logo.png">
+                    <img src="img/clients/sid.PNG">
+                    <img src="img/clients/sin.jpeg">
+                    <img src="img/clients/toyota-logo.jpg">
+                    <img src="img/clients/tp.png">
+                    <img src="img/clients/trakinvest1.jpeg">
+                    <img src="img/clients/triverse_south_africa_logo.jpg">
+                    <img src="img/clients/upsc.png">
+                    <img src="img/clients/vcrew.jpg">
+                    <img src="img/clients/vitomalia.png">
+                    <img src="img/clients/v-logo.png">
+                    <img src="img/clients/arnslogo.PNG">
+                    <img src="img/clients/bhategroupslogo.png">
+                    <img src="img/clients/brysq.png">
+                    <img src="img/clients/client.jpg">
+                    <img src="img/clients/client1.jpg">
+                    <img src="img/clients/client2.png">
+                    <img src="img/clients/client3.png">
+                    <img src="img/clients/client4.jpg">
+                    <img src="img/clients/client5.jpg">
+                    <img src="img/clients/client6.jpg">
+                    <img src="img/clients/cognisie_logo_new.png">
+                    <img src="img/clients/karmayoga-logo.png">
+                    <img src="img/clients/logo1.jpeg">
+                    <img src="img/clients/logo-1.PNG">
+                    <img src="img/clients/mks.png">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients Marquee End -->
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="img\desarrollo-02.gif" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-uppercase mb-3"
+                        style="color: #ffac00; letter-spacing: 2px; font-weight: 700; border-bottom: 2px solid #ffac00; display: inline-block; padding-bottom: 5px;">
+                        About Us</h6>
+                    <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s"
+                        style="font-weight: 800; font-size: 2.5rem;">Join Hands, Change the World</h1>
+
+                    <p class="mb-4 wow fadeIn" data-wow-delay="0.3s" style="color: #555;">SamMegh Technologies is a
+                        dynamic and innovative Software Development firm established on January 4, 2021, by Sachin
+                        Vaidya, with a vision to empower businesses and individuals through cutting-edge digital
+                        solutions and industry-focused technology training.</p>
+
+                    <!-- Feature Grid -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle me-2 fa-lg" style="color: #003399;"></i>
+                                <span class="fw-bold" style="color: #000;">End-to-End Solutions</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle me-2 fa-lg" style="color: #003399;"></i>
+                                <span class="fw-bold" style="color: #000;">35+ Projects Delivered</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle me-2 fa-lg" style="color: #003399;"></i>
+                                <span class="fw-bold" style="color: #000;">Industry Experts</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle me-2 fa-lg" style="color: #003399;"></i>
+                                <span class="fw-bold" style="color: #000;">Global Client Base</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="mb-5" style="color: #797E88;">We consult, explore, design, develop, and implement
+                        customized solutions that help our clients scale and excel.</p>
+
+                    <!-- CTA Section -->
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="d-flex align-items-center mb-3 mb-md-0">
+                            <div class="btn-lg-square rounded-circle me-3"
+                                style="background-color: #ffac00; width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white fa-2x" style="transform: rotate(90deg);"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0 text-secondary text-uppercase"
+                                    style="font-size: 0.9rem; font-weight: 600; letter-spacing: 1px;">Call Us Now</p>
+                                <h5 class="mb-0 fw-bold" style="font-size: 1.5rem; color: #000;">9986549363</h5>
+                            </div>
+                        </div>
+                        <a href="#footer" class="btn btn-primary rounded-pill py-3 px-5 mb-3 mb-md-0"
+                            style="background-color: #003399; border-color: #003399; font-weight: 700;">CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <section class="services-section py-5" id="service">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our
+                    Services</h6>
+                <h2 class="display-6 mb-3">We Deliver Scalable, Secure Digital Solutions</h2>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="row g-4">
+                <!-- Service 1: Website Development -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-card">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="mb-3">Website Design & Development</h3>
+                        <p class="mb-4">
+                            Our website development process begins with detailed requirement analysis and wireframing.
+                            We design responsive UI/UX interfaces and develop using modern technologies with clean,
+                            modular code.
+                        </p>
+                        <a href="#" class="read-more" data-service="website">
+                            See More <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2: App Development -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-card">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="mb-3">App Design & Development</h3>
+                        <p class="mb-4">
+                            We design and develop mobile applications with a strong focus on usability and performance.
+                            Our team builds native and hybrid apps with secure backend architecture and seamless API
+                            integrations.
+                        </p>
+                        <a href="#" class="read-more" data-service="app">
+                            See More <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3: UI/UX Design -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-card">
+                        <div class="icon-wrapper mb-4">
+                            <i class="fas fa-vector-square"></i>
+                        </div>
+                        <h3 class="mb-3">UI/UX Designing</h3>
+                        <p class="mb-4">
+                            Our UI/UX services focus on creating visually appealing and user-friendly digital
+                            experiences. We design intuitive interfaces aligned with business goals to ensure maximum
+                            user satisfaction.
+                        </p>
+                        <a href="#" class="read-more" data-service="uiux">
+                            See More <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industries-section py-5 bg-light">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">
+                    Industries We Serve</h6>
+                <h2 class="display-6 mb-3">Diverse Portfolio Across Multiple Sectors</h2>
+                <p class="text-muted fs-6">Trusted by leaders in 12+ industries worldwide</p>
+            </div>
+
+            <!-- Industries Grid -->
+            <div class="row g-4">
+                <!-- Property & Real Estate -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-property mb-3">
+                            <i class="fa fa-building fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Property & Real Estate</h3>
+                        <p class="mb-0">Top-notch web solutions tailored for property and real estate businesses.</p>
+                    </div>
+                </div>
+
+                <!-- Event Management -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-event mb-3">
+                            <i class="fa fa-calendar-check fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Event Management</h3>
+                        <p class="mb-0">Reach the right audience using powerful SEO tools and digital strategies.</p>
+                    </div>
+                </div>
+
+                <!-- Hotels & Restaurants -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-hospitality mb-3">
+                            <i class="fa fa-utensils fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Hotels & Restaurants</h3>
+                        <p class="mb-0">Enhance customer experience with intuitive and user-friendly websites.</p>
+                    </div>
+                </div>
+
+                <!-- Entertainment -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-entertainment mb-3">
+                            <i class="fa fa-film fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Entertainment</h3>
+                        <p class="mb-0">Stand out from competitors with creative and engaging web solutions.</p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-education mb-3">
+                            <i class="fa fa-graduation-cap fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Education</h3>
+                        <p class="mb-0">Transforming institutions to meet the needs of the tech-driven era.</p>
+                    </div>
+                </div>
+
+                <!-- Grocery & Retail -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.35s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-retail mb-3">
+                            <i class="fa fa-cart-shopping fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Grocery & Retail</h3>
+                        <p class="mb-0">Deliver seamless eCommerce experiences with robust online platforms.</p>
+                    </div>
+                </div>
+
+                <!-- Banking -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-banking mb-3">
+                            <i class="fa fa-building-columns fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Banking</h3>
+                        <p class="mb-0">Secure and user-friendly digital solutions for the banking sector.</p>
+                    </div>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.45s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-enterprise mb-3">
+                            <i class="fa fa-briefcase fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Enterprise</h3>
+                        <p class="mb-0">Scalable web solutions designed to help enterprises grow and compete.</p>
+                    </div>
+                </div>
+
+                <!-- Tour & Travels -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-travel mb-3">
+                            <i class="fa fa-plane-departure fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Tour & Travels</h3>
+                        <p class="mb-0">Create impactful first impressions with attractive travel websites.</p>
+                    </div>
+                </div>
+
+                <!-- Healthcare -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.55s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-healthcare mb-3">
+                            <i class="fa fa-heart-pulse fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Healthcare</h3>
+                        <p class="mb-0">High-performance web and mobile apps delivering real healthcare value.</p>
+                    </div>
+                </div>
+
+                <!-- Studio -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-studio mb-3">
+                            <i class="fa fa-camera-retro fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">Studio</h3>
+                        <p class="mb-0">Customized digital solutions that showcase creativity and brand identity.</p>
+                    </div>
+                </div>
+
+                <!-- On-Demand Solutions -->
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.65s">
+                    <div class="industry-card">
+                        <div class="icon-wrapper icon-gradient-ondemand mb-3">
+                            <i class="fa fa-gears fa-2x"></i>
+                        </div>
+                        <h3 class="mb-2">On-Demand Solutions</h3>
+                        <p class="mb-0">Personalized website and app development tailored to unique business needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Industries End    
+    <!-- Products Section -->
+    <section class="products-section-v2 py-5 bg-white" id="product">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our
+                    Products</h6>
+                <h2 class="display-6 mb-2">Software Built for Growth</h2>
+                <p class="text-muted fs-6">Powerful, scalable solutions trusted by 500+ businesses</p>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="row g-4">
+                <!-- CRM Software -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-card-v2">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge badge-popular">Popular</span>
+                            <img src="img/crm-customer-relationship-management-concept-with-icon-set-free-vector.jpg"
+                                alt="CRM Software">
+                            <div class="image-overlay">
+                                <span class="overlay-text">View Preview</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">CRM Software</h3>
+                            <p class="product-tagline">Streamline sales, boost relationships, close more deals.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check-circle me-2"></i>Lead & pipeline management</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Automated follow-ups</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Analytics dashboard</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Multi-channel communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matrimonial Application -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-card-v2">
+                        <div class="product-image-wrapper">
+                            <img src="img/matrimonial.png" alt="Matrimonial Application">
+                            <div class="image-overlay">
+                                <span class="overlay-text">View Preview</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Matrimonial Application</h3>
+                            <p class="product-tagline">Secure, intelligent matchmaking for modern users.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check-circle me-2"></i>Profile verification system</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Advanced match filters</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Secure chat & requests</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Subscription management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flight & Hotel Booking -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="product-card-v2">
+                        <div class="product-image-wrapper">
+                            <span class="product-badge badge-new">New</span>
+                            <img src="img/online-travel-ticket-store-through-transportation-journey-booking-hand-drawn-illustration_2175-10329.avif"
+                                alt="Flight & Hotel Booking">
+                            <div class="image-overlay">
+                                <span class="overlay-text">View Preview</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Flight & Hotel Booking</h3>
+                            <p class="product-tagline">Seamless travel bookings with real-time availability.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check-circle me-2"></i>Real-time search</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Booking management</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Payment gateway integration</li>
+                                <li><i class="fas fa-check-circle me-2"></i>Admin reporting tools</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Technologies Section -->
+    <section class="technologies-section-v2 py-5 bg-light" id="technologies">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our Tech
+                    Stack</h6>
+                <h2 class="display-6">Modern Tools We Master</h2>
+            </div>
+
+            <!-- Tech Badges Grid -->
+            <div class="row g-3 justify-content-center">
+                <!-- React JS -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #61DAFB;">
+                        <i class="fab fa-react"></i>
+                        <h6>React JS</h6>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #339933;">
+                        <i class="fab fa-node-js"></i>
+                        <h6>Node JS</h6>
+                    </div>
+                </div>
+
+                <!-- MySQL -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #4479A1;">
+                        <i class="fas fa-database"></i>
+                        <h6>MySQL</h6>
+                    </div>
+                </div>
+
+                <!-- Python -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #3776AB;">
+                        <i class="fab fa-python"></i>
+                        <h6>Python</h6>
+                    </div>
+                </div>
+
+                <!-- MongoDB -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #47A248;">
+                        <i class="fas fa-leaf"></i>
+                        <h6>MongoDB</h6>
+                    </div>
+                </div>
+
+                <!-- AWS -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #FF9900;">
+                        <i class="fab fa-aws"></i>
+                        <h6>AWS</h6>
+                    </div>
+                </div>
+
+                <!-- AI Integration -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #8B5CF6;">
+                        <i class="fas fa-brain"></i>
+                        <h6>AI Integration</h6>
+                    </div>
+                </div>
+
+                <!-- Figma -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #F24E1E;">
+                        <i class="fab fa-figma"></i>
+                        <h6>Figma</h6>
+                    </div>
+                </div>
+
+                <!-- Flutter -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #02569B;">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h6>Flutter</h6>
+                    </div>
+                </div>
+
+                <!-- React Native -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="tech-badge" style="background: #61DAFB;">
+                        <i class="fab fa-react"></i>
+                        <h6>React Native</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section class="our-work-section py-5" id="work" style="background: #F9FAFB;">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our Work
+                </h6>
+                <h2 class="display-6 mb-2">Proven Solutions Across Industries</h2>
+                <p class="text-muted fs-6">9 successful projects delivered</p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="row g-4">
+                <!-- Inventory Management -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-boxes-stacked category-business"></i>
+                        <h4>Inventory Management System</h4>
+                        <p class="project-tagline">Comprehensive stock tracking for retail businesses</p>
+                        <div class="project-tags">
+                            <span class="tag">Web App</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Hotel Management -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-utensils category-business"></i>
+                        <h4>Hotel Management System</h4>
+                        <p class="project-tagline">Digital menus and contactless dining experience</p>
+                        <div class="project-tags">
+                            <span class="tag">Web App</span>
+                            <span class="tag">Mobile-Friendly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Factory Management -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-industry category-business"></i>
+                        <h4>Factory Management System</h4>
+                        <p class="project-tagline">Streamline operations for sugar factory workflows</p>
+                        <div class="project-tags">
+                            <span class="tag">Enterprise</span>
+                            <span class="tag">Custom</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- GIS Platform -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-map-marked-alt category-tech"></i>
+                        <h4>Geographic Information System</h4>
+                        <p class="project-tagline">Interactive maps for geographic data analysis</p>
+                        <div class="project-tags">
+                            <span class="tag">Data Viz</span>
+                            <span class="tag">Mapping</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Labeling System -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-tags category-tech"></i>
+                        <h4>Labeling System</h4>
+                        <p class="project-tagline">Automated labeling for product traceability</p>
+                        <div class="project-tags">
+                            <span class="tag">Automation</span>
+                            <span class="tag">Integration</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- E-Commerce -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-shopping-cart category-tech"></i>
+                        <h4>E-Commerce Application</h4>
+                        <p class="project-tagline">Full-featured online selling platform</p>
+                        <div class="project-tags">
+                            <span class="tag">E-Commerce</span>
+                            <span class="tag">Payments</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Bidding Platform -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-gavel category-platform"></i>
+                        <h4>Bidding Application</h4>
+                        <p class="project-tagline">Connect employers with construction professionals</p>
+                        <div class="project-tags">
+                            <span class="tag">Marketplace</span>
+                            <span class="tag">Location-based</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Analytics Dashboards -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-chart-line category-platform"></i>
+                        <h4>Analytical Dashboards</h4>
+                        <p class="project-tagline">Data-driven insights for better decisions</p>
+                        <div class="project-tags">
+                            <span class="tag">BI</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Learning Management -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card-v2">
+                        <i class="fas fa-graduation-cap category-platform"></i>
+                        <h4>Learning Management System</h4>
+                        <p class="project-tagline">Robust e-learning for educational institutions</p>
+                        <div class="project-tags">
+                            <span class="tag">EdTech</span>
+                            <span class="tag">Platform</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Team Start -->
+    <!-- CEO Desk Start -->
+    <!-- <div class="container-fluid py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+            <p class="section-title bg-white text-center text-primary px-3">At CEO's Desk</p>
+            <h1 class="display-6">Meet Our CEO</h1>
+        </div>
+
+        <div class="row justify-content-center" >
+            <div class="col-lg-10 col-md-12" style=" background-color: #003399;">
+                <div class="team-item d-flex flex-column flex-md-row align-items-center p-4 shadow-sm">
+                    
+                   
+                    <div class="team-detail text-center text-md-start mb-4 mb-md-0 me-md-4">
+                        <img class="img-fluid rounded mb-3" src="img\sachin.jfif" alt="Sachin Vaidya" style="max-width: 220px;">
+                        <h3 class="mb-1" style="color:#ffffff;">Sachin Vaidya</h3>
+                        <span  style="color:#fff;">Founder & CEO</span>
+                    </div>
+
+                  
+                    <div class="team-content">
+                        <p class="mb-4" style="color:#ffffff;">
+                            Sachin Vaidya, a startup enthusiast, has completed his graduation in 
+                            <strong>B.E. Electronics and Communication</strong> from 
+                            <strong>Visvesvaraya Technological University</strong>. 
+                            After working with multiple startups, he conceptualized <strong>SamMegh</strong> 
+                            with the motto of delivering high-quality services and building innovative products 
+                            using the latest technologies.
+                        </p>
+                        <p class="mb-4" style="color:#ffffff;">
+                            Along with software development, he envisions bridging the gap between 
+                            industry-required skills and student capabilities through focused training programs. 
+                            He also strongly believes in and drives the <strong>digitization of businesses</strong>.
+                        </p>
+
+                      
+                        <div class="d-flex gap-4">
+                            <a href="https://www.facebook.com/sachin.vaidya.338" target="_blank">
+                                <i class="fab fa-facebook" style="font-size:28px;"></i>
+                            </a>
+                            <a href="https://instagram.com/sachinvaidya45?utm_medium=copy_link" target="_blank">
+                                <i class="fab fa-instagram" style="font-size:28px;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sachin-vaidya45" target="_blank">
+                                <i class="fab fa-linkedin" style="font-size:28px;"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+    <!-- CEO Desk End -->
+    <!-- Our Development Process Section -->
+    <section class="horizontal-process-section py-5" style="background: #F9FAFB;">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center mb-5">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our
+                    Process</h6>
+                <h2 class="display-6 mb-2">From Idea to Launch</h2>
+                <p class="text-muted fs-6">A proven 6-step methodology</p>
+            </div>
+
+            <!-- Horizontal Zigzag Timeline -->
+            <div class="horizontal-timeline">
+                <!-- Timeline Line -->
+                <div class="timeline-line"></div>
+
+                <!-- Step 1 - Top -->
+                <div class="timeline-step step-top" style="left: 5%; color: #3B82F6;">
+                    <div class="timeline-dot" data-number="01"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">01</span>
+                        <div class="step-icon" style="color: #3B82F6;">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h4 class="step-title">Requirement Analysis</h4>
+                        <p class="step-desc">Understand goals and define project scope</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 - Bottom -->
+                <div class="timeline-step step-bottom" style="left: 22%; color: #8B5CF6;">
+                    <div class="timeline-dot" data-number="02"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">02</span>
+                        <div class="step-icon" style="color: #8B5CF6;">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h4 class="step-title">Planning & Wireframing</h4>
+                        <p class="step-desc">Clear user flows and project planning</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 - Top -->
+                <div class="timeline-step step-top" style="left: 39%; color: #10B981;">
+                    <div class="timeline-dot" data-number="03"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">03</span>
+                        <div class="step-icon" style="color: #10B981;">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4 class="step-title">UI/UX Design</h4>
+                        <p class="step-desc">User-friendly and appealing interfaces</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 - Bottom -->
+                <div class="timeline-step step-bottom" style="left: 56%; color: #F59E0B;">
+                    <div class="timeline-dot" data-number="04"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">04</span>
+                        <div class="step-icon" style="color: #F59E0B;">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="step-title">Development</h4>
+                        <p class="step-desc">Secure, scalable modern technologies</p>
+                    </div>
+                </div>
+
+                <!-- Step 5 - Top -->
+                <div class="timeline-step step-top" style="left: 73%; color: #EF4444;">
+                    <div class="timeline-dot" data-number="05"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">05</span>
+                        <div class="step-icon" style="color: #EF4444;">
+                            <i class="fas fa-vial-circle-check"></i>
+                        </div>
+                        <h4 class="step-title">Testing & QA</h4>
+                        <p class="step-desc">Quality checks across all devices</p>
+                    </div>
+                </div>
+
+                <!-- Step 6 - Bottom -->
+                <div class="timeline-step step-bottom" style="left: 90%; color: #06B6D4;">
+                    <div class="timeline-dot" data-number="06"></div>
+                    <div class="timeline-connector"></div>
+                    <div class="process-card">
+                        <span class="step-number">06</span>
+                        <div class="step-icon" style="color: #06B6D4;">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4 class="step-title">Deployment & Support</h4>
+                        <p class="step-desc">Live deployment with ongoing support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="testimonial-title">
+                        <h1 class="display-6 mb-4">What People Say About Our Activities.</h1>
+                        <p class="fs-5 mb-0">We work to bring smiles, hope, and a brighter future to those in need.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-8 col-xl-9">
+                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="img/nandish.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">“Working with the team was an absolute pleasure from start to finish. They understood our business requirements clearly and transformed our vision into a powerful, user-friendly website and mobile application. The design is modern, performance is seamless, and the entire development process was transparent and well-managed. Their technical expertise, responsiveness, and commitment to quality truly set them apart. I highly recommend them to anyone looking for reliable and innovative digital solutions.”</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Nandish Bhate</h5>
+                                                <span>Founder, Ishanyaa</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">Every hand extended in kindness brings us closer to a world free from suffering. Be part of a global movement dedicated to building a future where equality and compassion thrive.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Donald Pakura</h5>
+                                                <span>CEO, Founder</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">Love and compassion have the power to heal. Through your donations and volunteer work, we can spread kindness and support to children, families, and communities struggling to find stability.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Boris Johnson</h5>
+                                                <span>CEO, Founder</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner py-5" id="train">
+        <div class="container">
+            <div class="banner-inner bg-light p-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 py-5 text-center">
+                        <h1 class="display-6 wow fadeIn" data-wow-delay="0.3s">Training & Internship Program</h1>
+                        <p class="fs-5 mb-4 wow fadeIn" data-wow-delay="0.5s">Our training and internship programs are
+                            designed to provide a complete, immersive, and industry-focused learning experience.
+                            Students learn through expert-led live sessions with real-time interaction and doubt
+                            clarification, while recorded classes are made available through our LMS for easy revision
+                            anytime. We provide comprehensive study materials, including notes, reference guides, and
+                            curated resources, along with weekly assignments and mini-projects based on real-world
+                            development scenarios. Learners also benefit from monthly seminars and webinars conducted by
+                            industry professionals, keeping them updated with the latest technologies, trends, and
+                            career insights. As part of the program, students undergo a structured live internship where
+                            they work in teams on real client-based projects under dedicated mentors, gaining hands-on
+                            experience with wireframes, development workflows, client interactions, and task management
+                            using JIRA. Upon successful completion, students receive an official Internship Certificate
+                            and Experience Letter, along with dedicated placement support such as mock interviews,
+                            coding practice, resume building, and LinkedIn profile optimization—ensuring they are
+                            job-ready and confident.</p>
+                        <div class="d-flex justify-content-center wow fadeIn" data-wow-delay="0.7s">
+                            <a class="btn btn-primary py-3 px-4 me-3"
+                                href="https://sammegh.com/Mern%20Stack%20Development%20Syllabus%20(2).pdf"
+                                target="_blank" download>Download Syllabus</a>
+                            <a class="btn btn-primary py-3 px-4 me-3" href="https://sammegh.com/sammegh-education.pdf"
+                                target="_blank" download>Download Brochure</a>
+
+                        </div>
+
+                    </div>
+                    <!-- Training & Internship Section -->
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Achievements & Collaborations Start -->
+    <!-- Awards, Collaborations & Achievements Start -->
+    <div class="container-fluid py-5" id="award">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h6 class="text-uppercase mb-2" style="color: #FFAC00; letter-spacing: 2px; font-weight: 700;">Our
+                    Milestones</h6>
+                <h2 class="display-6 mb-4">Awards, Collaborations & Achievements</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Award -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="milestone-card" data-category="award">
+                        <div class="milestone-image">
+                            <img src="img\award1.jpeg" alt="Most Advanced Software Provider 2024">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">Award</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>Most Advanced Software Solution Provider – 2024</h4>
+                            <p>Indo Global Business Excellence Corporate Connect - Industry-wide recognition for
+                                innovation</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-trophy"></i> Industry Award
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placement -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="milestone-card" data-category="placement">
+                        <div class="milestone-image">
+                            <img src="img\job.jpg" alt="Placement Opportunities">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">Placement</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>Placement Opportunities for Students</h4>
+                            <p>Optium Hire - Exciting job opportunities through our placement support initiatives</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-briefcase"></i> Career Support
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ICFAI University -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="milestone-card" data-category="university">
+                        <div class="milestone-image">
+                            <img src="img\college.jpeg" alt="ICFAI University Nagaland">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">University</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>ICFAI University, Nagaland</h4>
+                            <p>MCA Department collaboration - MERN Stack training with real-time project development</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-graduation-cap"></i> Academic Partnership
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seshadripuram College -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="milestone-card" data-category="workshop">
+                        <div class="milestone-image">
+                            <img src="img\event1 (1).jpg" alt="Seshadripuram College Workshop">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">Workshop</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>Seshadripuram College, Bengaluru</h4>
+                            <p>Online workshop on web development importance and job market trends</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-chalkboard-teacher"></i> Web Development
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GEC Haveri -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="milestone-card" data-category="workshop">
+                        <div class="milestone-image">
+                            <img src="img\event3.jpg" alt="Government Engineering College Haveri">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">Workshop</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>Government Engineering College, Haveri</h4>
+                            <p>Online workshop highlighting web development careers and industry requirements</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-laptop-code"></i> Career Workshop
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KLE College -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="milestone-card" data-category="workshop">
+                        <div class="milestone-image">
+                            <img src="img\6 (1).jpeg" alt="KLE Gogte Commerce College">
+                            <div class="milestone-overlay"></div>
+                            <span class="milestone-badge">Workshop</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>KLE Gogte Commerce College, Belagavi</h4>
+                            <p>Online session on web development importance and evolving job market</p>
+                            <div class="milestone-meta">
+                                <i class="fas fa-users"></i> Student Session
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Achievements & Collaborations End -->
+
+
+
+
+    <!-- Features Start / Why Us Section -->
+    <section class="why-us-section" id="why-us-section">
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <!-- Stats Grid -->
+                    <div class="col-lg-6">
+                        <div class="stats-grid">
+                            <div class="row g-4">
+                                <!-- Team Members Stat -->
+                                <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="stat-card stat-card-orange" role="region"
+                                        aria-label="Team Members Statistics">
+                                        <div class="stat-icon-wrapper">
+                                            <i class="fa fa-users fa-3x"></i>
+                                        </div>
+                                        <h2 class="stat-number" data-target="15">0</h2>
+                                        <span class="stat-label">Team Members</span>
+                                    </div>
+                                </div>
+
+                                <!-- Award Winning Stat -->
+                                <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="stat-card stat-card-blue" role="region" aria-label="Awards Statistics">
+                                        <div class="stat-icon-wrapper">
+                                            <i class="fa fa-award fa-3x"></i>
+                                        </div>
+                                        <h2 class="stat-number" data-target="2">0</h2>
+                                        <span class="stat-label">Award Winning</span>
+                                    </div>
+                                </div>
+
+                                <!-- Total Projects Stat -->
+                                <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="stat-card stat-card-blue" role="region"
+                                        aria-label="Projects Statistics">
+                                        <div class="stat-icon-wrapper">
+                                            <i class="fa fa-list-check fa-3x"></i>
+                                        </div>
+                                        <h2 class="stat-number" data-target="150">0</h2>
+                                        <span class="stat-label">Total Projects</span>
+                                    </div>
+                                </div>
+
+                                <!-- Client Served Stat -->
+                                <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="stat-card stat-card-orange" role="region"
+                                        aria-label="Clients Statistics">
+                                        <div class="stat-icon-wrapper">
+                                            <i class="fa fa-comments fa-3x"></i>
+                                        </div>
+                                        <h2 class="stat-number" data-target="150">0</h2>
+                                        <span class="stat-label">Client Served</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Why Us Content -->
+                    <div class="col-lg-6">
+                        <div class="why-us-content">
+                            <h6 class="why-us-badge text-uppercase mb-3">Why Us!</h6>
+                            <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Few Reasons Why People Choosing
+                                Us!</h1>
+
+                            <div class="why-us-features">
+                                <div class="feature-item wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h5>Proven Development Expertise</h5>
+                                        <p>Successfully delivered 35+ web and Android development projects for domestic
+                                            and international clients.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-item wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h5>End-to-End Product Development</h5>
+                                        <p>From requirement analysis and UI/UX to development, testing, and deployment.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-item wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h5>Scalable & Secure Solutions</h5>
+                                        <p>We build high-performance, scalable, and secure applications using modern
+                                            technologies.</p>
+                                    </div>
+                                </div>
+
+                                <div class="feature-item wow fadeIn" data-wow-delay="0.6s">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h5>Quality-Driven Delivery</h5>
+                                        <p>Strong focus on clean code, best practices, timely delivery, and long-term
+                                            maintainability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features End / Why Us Section End -->
+
+    <!-- Minimal Footer Start -->
+    <footer class="minimal-footer" id="footer">
+        <div class="container">
+            <!-- Top Row: Brand + Contact + Social -->
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="img/sammegh11.png" alt="SamMegh Technologies" class="footer-logo-mini">
+                    <span class="footer-tagline">Digital Solutions Since 2021</span>
+                </div>
+
+                <div class="footer-contact-inline">
+                    <div class="contact-group">
+                        <i class="far fa-envelope contact-icon-inline"></i>
+                        <div class="contact-links">
+                            <a href="mailto:info@sammegh.com" aria-label="Email">info@sammegh.com</a>
+                            <a href="mailto:sammeghtech@gmail.com" aria-label="Email">sammeghtech@gmail.com</a>
+                        </div>
+                    </div>
+                    <span class="separator-line"></span>
+                    <div class="contact-group">
+                        <i class="fas fa-phone-alt contact-icon-inline"></i>
+                        <div class="contact-links">
+                            <a href="tel:+919986549363" aria-label="Phone">+91 9986549363</a>
+                            <a href="tel:+917892463914" aria-label="Phone">+91 7892463914</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-social-inline">
+                    <a href="https://www.instagram.com/sammeghtech/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sammeghtech" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/sammegh-technologies/?originalSubdomain=in"
+                        target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCIi4l4p_2VERk_2FAGM8XIw" target="_blank"
+                        aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom Row: Copyright + Legal -->
+            <div class="footer-bottom-minimal">
+                <p class="copyright-text">© 2026 <strong>SamMegh Technologies</strong>. All Rights Reserved.</p>
+                <div class="footer-legal-minimal">
+                    <a href="#footer">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#footer">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Minimal Footer End -->
+
+
+
+
+
+
+    <!-- Service Detail Modal -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content service-modal-content">
+                <div class="modal-header border-0">
+                    <h3 class="modal-title" id="serviceModalLabel"></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="serviceModalBody">
+                    <!-- Content will be dynamically injected here -->
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#footer" class="btn btn-primary" data-bs-dismiss="modal">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
